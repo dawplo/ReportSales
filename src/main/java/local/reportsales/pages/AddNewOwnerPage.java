@@ -1,7 +1,7 @@
 package local.reportsales.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import local.petclinic.utils.Generators;
+import local.reportsales.utils.Generators;
 import org.openqa.selenium.support.FindBy;
 
 import static com.codeborne.selenide.Selenide.page;

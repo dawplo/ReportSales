@@ -1,19 +1,17 @@
 package local.reportsales.utils;
 
-import local.reportsales.dictionary.TestReport;
-
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestReport {
+class TestDataKey {
 
-    private static Map<TestReport, String> testData = new HashMap<>();
+    private static Map<TestDataKey, String> testData = new HashMap<>();
 
-    public static void save(TestReport key, String value) {
+    public static void save(TestDataKey key, String value) {
         testData.put(key, value);
     }
 
-    public static String getSavedData(TestReport key) {
+    public static String getSavedData(TestDataKey key) {
         return testData.get(key);
     }
 
